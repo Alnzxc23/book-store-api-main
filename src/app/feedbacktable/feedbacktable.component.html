@@ -1,12 +1,12 @@
-<header>
-<nav class="navbar sticky-top navbar-light conteiner">
-  <a class="navbar-brand logo" routerLink="/">На главную</a>
-</nav>
+<header class="container-fluid p-0 m-0">
+  <nav class="conteiner">
+    <a class="navbar-brand logo" routerLink="/">На главную</a>
+  </nav>
 </header>
 <div class="container">
 <h2>Система рейтинга</h2>
 <div class="mat-elevation-z8">
-  <table mat-table [dataSource]="dataSource" >
+  <table mat-table [dataSource]="dataSource">
     <ng-container matColumnDef="id">
       <th mat-header-cell *matHeaderCellDef mat-sort-header> id </th>
       <td mat-cell *matCellDef="let row"> {{row.id}} </td>

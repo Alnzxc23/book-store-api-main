@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-.cntnt{
+.cntnt {
   display: flex;
   margin-top: 3%;
   padding: 0;
@@ -36,7 +36,7 @@ a {
   width: 80vw;
 }
 
-.rait{
+.rait {
   border: 1px solid black;
   width: 30%;
   height: 50vh;
@@ -45,7 +45,7 @@ a {
   border-radius: 14px 0 0 14px;
 }
 
-button{
+button {
   border-radius: 14px;
   height: 5vh;
   width: 12vw;
@@ -66,12 +66,13 @@ input:active, :hover, :focus {
   outline: 0;
   outline-offset: 0;
 }
-.form{
+
+.form {
   width: 70%;
   height: 100%;
 }
 
-textarea{
+textarea {
   width: 100%;
   border-radius: 0 14px 14px 0;
   border: none;
@@ -100,5 +101,9 @@ textarea{
 .starsandbtn {
   display: inline-block;
   vertical-align: middle;
+}
+
+header {
+  overflow-x: hidden;
 }
 
